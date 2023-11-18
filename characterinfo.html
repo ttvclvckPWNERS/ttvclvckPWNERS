@@ -1,0 +1,146 @@
+<!DOCTYPE HTML>
+<html xmlns='http://www.w3.org/1999/xhtml'>
+<link rel="stylesheet" type="text/css" href="dand.css"/>
+<head>
+    <meta charset="UTF-8">
+    <title>Dungeons & Dragons Character Stats</title>
+</head>
+<body>
+
+<div class="topnav" id="myTopnav">
+    <a href="characterinfo.html" class="active">Character Stats</a>
+    <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+        <i class="fa fa-bars"></i>
+    </a>
+</div>
+
+<div>
+    <a href="dand.html"><img src="Dungeons-and-Dragons-logo-removebg-preview%20(1)%20(1).png" alt="Home" class="logo"></a>
+    <h1 class="site-name">Dungeons & Dragons Character Stats</h1>
+    <h2 class="author">Created by TechAssist Solutions</h2>
+    <div>
+        <div class="form-container">
+            <form id="character-info" style="align-self: center;">
+                <label for="class" style="color: white;">Class</label>
+                <select id="class" name="class">
+                    <option value="selectclass">Select class...</option>
+                    <option value="barbarian">Barbarian</option>
+                    <option value="bard">Bard</option>
+                    <option value="cleric">Cleric</option>
+                    <option value="Druid">Druid</option>
+                    <option value="fighter">Fighter</option>
+                    <option value="monk">Monk</option>
+                    <option value="paladin">Paladin</option>
+                    <option value="ranger">Ranger</option>
+                    <option value="rogue">Rogue</option>
+                    <option value="sorcerer">Sorcerer</option>
+                    <option value="warlock">Warlock</option>
+                    <option value="wizard">Wizard</option>
+                    <option value="artificer">Artificer</option>
+                    <option value="blood-hunter">Blood Hunter</option>
+                </select>
+                <br>
+                <hr>
+
+                <label for="level" style="color: white;">Level: </label>
+                <input type="text" id="level" name="level" placeholder="Your level..">
+                <br>
+                <hr>
+
+                <label for="race" style="color: white;">Race</label>
+                <select id="race" name="race">
+                    <option value="selectrace">Select race...</option>
+                    <option value="dragonborn">Dragonborn</option>
+                    <option value="dwarf">Dwarf</option>
+                    <option value="elf">Elf</option>
+                    <option value="gnome">Gnome</option>
+                    <option value="half-elf">Half-Elf</option>
+                    <option value="halfing">Halfling</option>
+                    <option value="half-orc">Half-Orc</option>
+                    <option value="human">Human</option>
+                    <option value="tiefling">Tiefling</option>
+                    <option value="aarakocra">Aarakocra</option>
+                    <option value="aasimar">Aasimar</option>
+                    <option value="air-genasi">Air Genasi</option>
+                    <option value="bugbear">Bugbear</option>
+                    <option value="centaur">Centaur</option>
+                    <option value="changeling">Changeling</option>
+                    <option value="deep-gnome">Deep Gnome</option>
+                    <option value="duergar">Duergar</option>
+                    <option value="earth-genasi">Earth Genasi</option>
+                    <option value="eladrin">Eladrin</option>
+                    <option value="fairy">Fairy</option>
+                    <option value="firbolg">Firbolg</option>
+                    <option value="fire-genasi">Fire Genasi</option>
+                    <option value="githyanki">Githyanki</option>
+                    <option value="goblin">Goblin</option>
+                    <option value="goliath">Goliath</option>
+                    <option value="harengon">Harengon</option>
+                    <option value="hobgoblin">Hobgoblin</option>
+                    <option value="kenku">Kenku</option>
+                    <option value="kobold">Kobold</option>
+                    <option value="lizardfolk">Lizardfolk</option>
+                    <option value="minotaur">Minotaur</option>
+                    <option value="orc">Orc</option>
+                    <option value="satyr">Satyr</option>
+                    <option value="sea-elf">Sea Elf</option>
+                    <option value="shadar-kai">Shadar-kai</option>
+                    <option value="shifter">Shifter</option>
+                    <option value="tabaxi">Tabaxi</option>
+                    <option value="tortle">Tortle</option>
+                    <option value="triton">Triton</option>
+                    <option value="water-genasi">Water Genasi</option>
+                    <option value="yuan-ti">Yuan-ti</option>
+                    <option value="kender">Kender</option>
+                    <option value="astral-elf">Astral Elf</option>
+                    <option value="autognome">Autognome</option>
+                    <option value="giff">Giff</option>
+                    <option value="hadozee">Hadozee</option>
+                    <option value="plasmoid">Plasmoid</option>
+                    <option value="thri-kreen">Thri-kreen</option>
+                    <option value="owlin">Owlin</option>
+                    <option value="githyanki">Lineages</option>
+                    <option value="leonin">Leonin</option>
+                    <option value="satyr-legacy">Satyr(Legacy)</option>
+                    <option value="changeling-legacy">Changeling(Legacy)</option>
+                    <option value="kalashtar">Kalashtar</option>
+                    <option value="shifter-legacy">Shifter(Legacy)</option>
+                    <option value="warforged">Warforged</option>
+                    <option value="verdan">Verdan</option>
+                    <option value="centaur-legacy">Centaur(Legacy)</option>
+                    <option value="loxodon">Loxodon</option>
+                    <option value="minotaur-legacy">Minotaur(Legacy)</option>
+                    <option value="simic-hybrid">Simic Hybrid</option>
+                    <option value="vedalken">Vedalken</option>
+                    <option value="feral-tiefling">Feral Tiefling</option>
+                    <option value="tortle-legacy">Tortle(Legacy)</option>
+                    <option value="locathah">Locathah</option>
+                    <option value="grung">Grung</option>
+                    <option value="gith-legacy">Gith(Legacy)</option>
+                    <option value="aasimar-legacy">Aasimar(Legacy)</option>
+                    <option value="bugbear-legacy">Bugbear(Legacy)</option>
+                    <option value="firbolg-legacy">Firbolg(Legacy)</option>
+                    <option value="goblin-legacy">Goblin(Legacy)</option>
+                    <option value="hobgoblin-legacy">Hobgoblin(Legacy)</option>
+                    <option value="kenku-legacy">Kenku(Legacy)</option>
+                    <option value="plasmoid">Kobold(Legacy)</option>
+                    <option value="lizardfolk-legacy">Lizardfolk(Legacy)</option>
+                    <option value="tabaxi-legacy">Tabaxi(Legacy)</option>
+                    <option value="triton-legacy">Triton(Legacy)</option>
+                    <option value="yuan-ti-pureblood-legacy">Yuan-ti Pureblood(Legacy)</option>
+                    <option value="aaroakocra-legacy">Aarakocra(Legacy)</option>
+                    <option value="genasi-legacy">Genasi(Legacy)</option>
+                    <option value="goliath-legacy">Goliath(Legacy)</option>
+                </select>
+                <br>
+                <hr>
+
+                <input type = 'Submit' id="Submit" value = 'Submit'>
+            </form>
+        </div>
+    </div>
+</div>
+
+</body>
+<script type="text/javascript" src="dand1.js"></script>
+</html>
