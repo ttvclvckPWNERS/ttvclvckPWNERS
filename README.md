@@ -1,0 +1,5 @@
+- 👋 Hi, I’m @ttvclvckPWNERS
+- 👀 I’m interested in Front-end Web Development
+- 🌱 I’m currently learning Javascript
+- 💞️ I’m looking to collaborate on much bigger projects
+- 📫 How to reach me email me: clackfirst@gmail.com, instagram: lilclvck1
