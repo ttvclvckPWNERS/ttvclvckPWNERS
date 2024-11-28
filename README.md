@@ -2,4 +2,4 @@
 - 👀 I’m interested in Front-End Web Development
 - 🌱 I’m currently learning Javascript
 - 💞️ I’m looking to collaborate on much bigger projects
-- 📫 How to reach me email me: techassistsolutions1@gmail.com, instagram: jusgrim00
+- 📫 How to reach me email me: techassistsolutions1@gmail.com, instagram: chunkydevs
